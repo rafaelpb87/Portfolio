@@ -81,6 +81,3 @@ Este repositorio muestra mis proyectos profesionales en **análisis de datos, an
 1. Clone this repository:
 ```bash
 git clone https://github.com/rafaelpb87/Portfolio.git
-
-## License / Licencia
-All projects in this repository are licensed under the MIT License.
