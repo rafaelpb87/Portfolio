@@ -1,0 +1,83 @@
+# Data Analysis Portfolio / Portafolio de Análisis de Datos
+
+## Overview / Resumen
+This repository showcases my professional projects in **data analysis, statistical analysis, and programming**. The portfolio demonstrates end-to-end workflows, including data collection, transformation, statistical modeling, process analysis, and data visualization to generate actionable insights.
+
+Este repositorio muestra mis proyectos profesionales en **análisis de datos, análisis estadístico y programación**. El portafolio demuestra flujos de trabajo completos, incluyendo recolección de datos, transformación, modelado estadístico, análisis de procesos y visualización de datos para generar insights accionables.
+
+---
+
+## Projects / Proyectos
+
+### 1. YouTube Live Chat Analysis / Análisis de Chat en Vivo de YouTube
+- **Skills:** Python scripting, unstructured data handling, Power BI visualization.  
+- Collected live chat messages in real-time from YouTube streams using Python (`pytchat`).  
+- Transformed unstructured chat data using Power BI / Power Query (keyword extraction, participant analysis).  
+- Visualized chat trends and engagement metrics in dashboards.
+
+---
+
+### 2. KPI Dashboard for Retail Operations / Dashboard de KPIs para Operaciones Retail
+- **Skills:** Python programming, data integration, dashboard creation.  
+- Extracted and consolidated data from multiple sources (databases, CSVs, Excel) using Python.  
+- Created an interactive dashboard to present KPIs in a user-friendly format.  
+- Enabled stakeholders to monitor key metrics for operational and financial performance.
+
+---
+
+### 3. Statistical and Process Analysis for Retail Chain / Análisis Estadístico y de Procesos para Cadena Retail
+- **Skills:** Statistical analysis, process optimization, Six Sigma methods, data visualization.  
+- Performed detailed statistical analysis on finance and operational processes across 100+ retail locations.  
+- Identified trends, anomalies, and inefficiencies.  
+- Provided actionable recommendations to improve operational efficiency and financial outcomes.
+
+---
+
+### 4. Social Needs Reporting - Aceleradora de Innovación Social Súperate / Reportes de Necesidades Sociales
+- **Skills:** Data-driven reporting, community needs analysis, visualization.  
+- Collected and analyzed data to identify the main necessities of communities in need across the Dominican Republic.  
+- Presented findings in structured reports to guide decision-making and align specific social actions.  
+- Supported the mission of the Aceleradora de Innovación Social Súperate through data-informed insights.
+
+---
+
+## Skills Demonstrated / Habilidades Demostradas
+- Data collection, cleaning, and integration from multiple sources.  
+- Statistical analysis and process optimization for operational and financial processes.  
+- Python programming for automation, dashboards, and data handling.  
+- Power BI and Power Query for data transformation and visualization.  
+- Presentation of actionable insights to stakeholders and decision-makers.
+
+- Recolección, limpieza e integración de datos desde múltiples fuentes.  
+- Análisis estadístico y optimización de procesos para operaciones y finanzas.  
+- Programación en Python para automatización, dashboards y manejo de datos.  
+- Power BI y Power Query para transformación y visualización de datos.  
+- Presentación de insights accionables a stakeholders y tomadores de decisiones.
+
+---
+
+## Requirements / Requisitos
+- Python 3.8 or higher  
+- Libraries:
+  - pytchat
+  - pandas
+  - openpyxl  
+- Power BI Desktop (for visualization)
+
+- Python 3.8 o superior  
+- Librerías:
+  - pytchat
+  - pandas
+  - openpyxl  
+- Power BI Desktop (para visualización)
+
+---
+
+## How to Use / Cómo Usar
+1. Clone this repository:
+```bash
+git clone https://github.com/rafaelpb87/Portfolio.git
+
+## License / Licencia
+All projects in this repository are licensed under the MIT License.
+
