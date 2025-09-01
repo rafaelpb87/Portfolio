@@ -1,6 +1,6 @@
-PulsoFoke – Sentiment Analysis of Casa Alofoke Live Chat
+**PulsoFoke – Sentiment Analysis of Casa Alofoke Live Chat**
 
-Project Overview
+**Project Overview**
 
 This project analyzes the sentiment and engagement of the audience during the live reality show Casa Alofoke, one of the most popular reality shows in the Dominican Republic. Using live chat messages and YouTube API data, this report tracks audience sentiment, mentions of participants, and engagement patterns throughout the show.
 
@@ -8,9 +8,9 @@ The analysis is presented in an interactive Power BI dashboard, designed for por
 
 This project demonstrates how to process unstructured data — text from live chat messages — and transform it into actionable insights.
 
-ETL Process
+**ETL Process**
 
-1. Extraction
+**1. Extraction**
 
 Python (pytchat + YouTube API) was used to collect data:
 
@@ -27,7 +27,7 @@ For portfolio purposes, a static dataset covering a defined time range is includ
 
 The API key used to extract live views is not included in the repository.
 
-2. Transformation
+**2. Transformation**
 
 Power Query was used for text cleaning and structuring unstructured data.
 
@@ -54,7 +54,7 @@ Mentions per participant
 
 Viewer count trends
 
-3. Load & Real-Time Analysis
+**3. Load & Real-Time Analysis**
 
 Data loaded into Power BI for visualization.
 
@@ -66,9 +66,9 @@ Detect sentiment trends in real time.
 
 Observe engagement patterns minute by minute.
 
-For the portfolio, static data is used, but the same structure allows real-time streaming analysis if connected to a live chat and the YouTube API.
+**For the portfolio, static data is used, but the same structure allows real-time streaming analysis if connected to a live chat and the YouTube API.**
 
-Unstructured Data and Its Importance
+**Unstructured Data and Its Importance**
 
 Unstructured data refers to information without a predefined format (e.g., chat messages, social media posts, emails).
 
@@ -76,7 +76,7 @@ Analyzing unstructured data allows companies to extract meaningful insights, det
 
 This project shows how to structure and relate unstructured chat data to numeric metrics (views) for both static and real-time analysis.
 
-Potential Applications in Business
+**Potential Applications in Business**
 
 This methodology is generalizable beyond reality shows:
 
