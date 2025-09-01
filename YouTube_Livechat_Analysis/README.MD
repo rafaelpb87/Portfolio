@@ -14,9 +14,9 @@ ETL Process
 
 Python (pytchat + YouTube API) was used to collect data:
 
-Live chat messages from the YouTube stream (casa_alofoke_livechat_data.csv).
+Live chat messages from the YouTube stream ([casa_alofoke_livechat_data.csv](./casa_alofoke_livechat_data.csv)).
 
-Concurrent viewers and total views every minute (casa_alofoke_livechat_ss.csv).
+Concurrent viewers and total views every minute ([casa_alofoke_livechat_ss.csv](casa_alofoke_livechat_ss.csv)).
 
 You can find the Python script used to extract the datasets [here](./lcextract.py).
 
