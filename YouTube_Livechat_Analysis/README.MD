@@ -14,6 +14,17 @@ This project demonstrates how to process unstructured data — text from live ch
 
 Python (pytchat + YouTube API) was used to collect data:
 
+### Dependencies
+
+The following Python libraries were used in this project:
+
+- [pytchat](https://pypi.org/project/pytchat/) – for extracting YouTube live chat messages.  
+- [pandas](https://pandas.pydata.org/) – for data transformation and cleaning.  
+- [os](https://docs.python.org/3/library/os.html) – for file and directory management.  
+- [time](https://docs.python.org/3/library/time.html) – for handling execution delays and intervals.  
+- [datetime](https://docs.python.org/3/library/datetime.html) – for working with timestamps.  
+- [googleapiclient.discovery](https://github.com/googleapis/google-api-python-client) – for accessing the YouTube Data API to extract concurrent viewers.
+
 Live chat messages from the YouTube stream ([casa_alofoke_livechat_data.csv](./casa_alofoke_livechat_data.csv)). This dataset captures messages sent during prime time in the live chat, so it is very large.  
 To view the complete dataset, click **"View raw"**
 
