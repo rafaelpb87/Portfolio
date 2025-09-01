@@ -3,12 +3,16 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Visualization-yellow)
 ![Status](https://img.shields.io/badge/Status-Practice%20Project-green)
-[![License](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
 
 **Libraries used:**
 [![pytchat](https://img.shields.io/badge/pytchat-Library-orange)](https://pypi.org/project/pytchat/)
 [![pandas](https://img.shields.io/badge/pandas-Data%20Analysis-lightblue)](https://pandas.pydata.org/)
 [![googleapiclient](https://img.shields.io/badge/googleapiclient-YouTube%20API-red)](https://github.com/googleapis/google-api-python-client)
+
+**Tech Stack**
+- Python (pytchat, pandas, googleapiclient, os, time, datetime)
+- Power BI (Power Query, DAX, Data Modeling)
+- GitHub (Version Control, Portfolio Hosting)
 
 **Project Overview**
 
@@ -37,7 +41,7 @@ The API key used to extract live views is not included in the repository.
 Live chat messages from the YouTube stream ([casa_alofoke_livechat_data.csv](./casa_alofoke_livechat_data.csv)). This dataset captures messages sent during prime time in the live chat, so it is very large.  
 To view the complete dataset, click **"View raw"**
 
-Concurrent viewers and total views every minute ([casa_alofoke_livechat_ss.csv](casa_alofoke_livechat_ss.csv)).
+Concurrent viewers and total views every minute ([casa_alofoke_livechat_ss.csv](./casa_alofoke_livechat_ss.csv)).
 
 **2. Transformation**
 
@@ -104,3 +108,7 @@ Product Launch Sentiment (E-commerce) – Measure customer reactions during a la
 Customer Feedback During Promotions (Retail) – Identify questions, complaints, and engagement in live events.
 
 Marketing & Media Strategy – Evaluate the performance of campaigns, influencers, or ad content..
+
+---
+🚀 **This project was created as part of my data portfolio.**  
+Feel free to explore the code, datasets, and dashboard. Feedback is welcome!
