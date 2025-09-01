@@ -34,24 +34,9 @@ A custom column named "Participante" was created to extract mentions of specific
 
 ![Participante field creation](./assets/datatransf1.png)
 
-= Table.AddColumn(#"Changed Type", "Participante", each 
-    if Text.Contains(Text.Lower([message]), "crucita") then "crucita"
-    else if Text.Contains(Text.Lower([message]), "crazy") then "crazy"
-    else if Text.Contains(Text.Lower([message]), "gigi") then "gigi"
-    else if Text.Contains(Text.Lower([message]), "trujillo") then "trujillo"
-    else if Text.Contains(Text.Lower([message]), "luise") then "luise"
-    else if Text.Contains(Text.Lower([message]), "saltamonte") then "saltamonte"
-    else if Text.Contains(Text.Lower([message]), "carlos") or Text.Contains(Text.Lower([message]), "carlo") then "saltamonte"
-    else if Text.Contains(Text.Lower([message]), "alofoke") then "alofoke"
-    else if Text.Contains(Text.Lower([message]), "carola") or Text.Contains(Text.Lower([message]), "karola") then "karola"
-    else null
-)
+MinuteKey was created as a unique key for each minute, to be able to create relationships between datasets:
 
-MinuteKey was created as a unique key for each minute:
-
-MinuteKey = 
-DATE(YEAR([timestamp]), MONTH([timestamp]), DAY([timestamp])) +
-TIME(HOUR([timestamp]), MINUTE([timestamp]), 0)
+![Participante field creation](./assets/datatransf2.png)
 
 A one-to-many relationship was established in Power BI:
 
