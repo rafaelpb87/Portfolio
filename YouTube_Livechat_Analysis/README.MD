@@ -18,6 +18,8 @@ Live chat messages from the YouTube stream (casa_alofoke_livechat_data.csv).
 
 Concurrent viewers and total views every minute (casa_alofoke_livechat_ss.csv).
 
+You can find the Python script used to extract the datasets [here](./assets/lcextract.py).
+
 ![Python execution screenshot](./assets/pythonexec.png)
 
 For portfolio purposes, a static dataset covering a defined time range is included.
