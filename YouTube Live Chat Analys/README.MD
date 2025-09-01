@@ -18,6 +18,8 @@ Live chat messages from the YouTube stream (casa_alofoke_livechat_data.csv).
 
 Concurrent viewers and total views every minute (casa_alofoke_livechat_ss.csv).
 
+![Dashboard Screenshot](./YouTube Live Chat Analys/assets/pythonexec.png)
+
 For portfolio purposes, a static dataset covering a defined time range is included.
 
 The API key used to extract live views is not included in the repository.
