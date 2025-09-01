@@ -82,6 +82,8 @@ Observe engagement patterns minute by minute.
 
 **For the portfolio, static data is used, but the same structure allows real-time streaming analysis if connected to a live chat and the YouTube API.**
 
+![Report screenshot](./assets/report.png)
+
 **Unstructured Data and Its Importance**
 
 Unstructured data refers to information without a predefined format (e.g., chat messages, social media posts, emails).
