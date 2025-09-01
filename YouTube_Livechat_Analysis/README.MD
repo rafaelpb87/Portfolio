@@ -1,5 +1,17 @@
 **PulsoFoke – Sentiment Analysis of Casa Alofoke Live Chat**
 
+# Pulsofoke – YouTube Live Chat Analytics
+
+![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![Power BI](https://img.shields.io/badge/Power%20BI-Visualization-yellow)
+![Status](https://img.shields.io/badge/Status-Practice%20Project-green)
+[![License](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
+
+**Libraries used:**
+[![pytchat](https://img.shields.io/badge/pytchat-Library-orange)](https://pypi.org/project/pytchat/)
+[![pandas](https://img.shields.io/badge/pandas-Data%20Analysis-lightblue)](https://pandas.pydata.org/)
+[![googleapiclient](https://img.shields.io/badge/googleapiclient-YouTube%20API-red)](https://github.com/googleapis/google-api-python-client)
+
 **Project Overview**
 
 This project analyzes the sentiment and engagement of the audience during the live reality show Casa Alofoke, one of the most popular reality shows in the Dominican Republic. Using live chat messages and YouTube API data, this report tracks audience sentiment, mentions of participants, and engagement patterns throughout the show.
@@ -13,17 +25,6 @@ This project demonstrates how to process unstructured data — text from live ch
 **1. Extraction**
 
 **1.1. Python (pytchat + YouTube API) was used to collect data:**
-
-Dependencies
-
-The following Python libraries were used in this project:
-
-- [pytchat](https://pypi.org/project/pytchat/) – for extracting YouTube live chat messages.  
-- [pandas](https://pandas.pydata.org/) – for data transformation and cleaning.  
-- [os](https://docs.python.org/3/library/os.html) – for file and directory management.  
-- [time](https://docs.python.org/3/library/time.html) – for handling execution delays and intervals.  
-- [datetime](https://docs.python.org/3/library/datetime.html) – for working with timestamps.  
-- [googleapiclient.discovery](https://github.com/googleapis/google-api-python-client) – for accessing the YouTube Data API to extract concurrent viewers.
 
 You can find the Python script used to extract the datasets [here](./lcextract.py).
 
