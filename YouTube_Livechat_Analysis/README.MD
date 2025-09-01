@@ -52,10 +52,11 @@ MinuteKey was created as a unique key for each minute, to be able to create rela
 
 ![Participante field creation](./assets/datatransf2.png)
 
-**2.2. A one-to-many relationship was established in Power BI:**
+**2.2. A one-to-many relationship was established in Power BI, allowing interactive filtering between charts:**
 
-casa_alofoke_livechat_ss[MinuteKey] → casa_alofoke_livechat_data[MinuteKey]
-This allows correlating viewer behavior with participant mentions.
+`casa_alofoke_livechat_ss[MinuteKey] → casa_alofoke_livechat_data[MinuteKey]`
+
+This relationship enables correlating viewer behavior with participant mentions.
 
 ![Participante field creation](./assets/datamodel1.png)
 
