@@ -1,5 +1,3 @@
-**PulsoFoke – Sentiment Analysis of Casa Alofoke Live Chat**
-
 # Pulsofoke – YouTube Live Chat Analytics
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
