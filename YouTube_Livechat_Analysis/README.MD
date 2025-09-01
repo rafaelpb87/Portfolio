@@ -12,9 +12,9 @@ This project demonstrates how to process unstructured data — text from live ch
 
 **1. Extraction**
 
-Python (pytchat + YouTube API) was used to collect data:
+**1.1. Python (pytchat + YouTube API) was used to collect data:**
 
-### Dependencies
+Dependencies
 
 The following Python libraries were used in this project:
 
@@ -25,11 +25,6 @@ The following Python libraries were used in this project:
 - [datetime](https://docs.python.org/3/library/datetime.html) – for working with timestamps.  
 - [googleapiclient.discovery](https://github.com/googleapis/google-api-python-client) – for accessing the YouTube Data API to extract concurrent viewers.
 
-Live chat messages from the YouTube stream ([casa_alofoke_livechat_data.csv](./casa_alofoke_livechat_data.csv)). This dataset captures messages sent during prime time in the live chat, so it is very large.  
-To view the complete dataset, click **"View raw"**
-
-Concurrent viewers and total views every minute ([casa_alofoke_livechat_ss.csv](casa_alofoke_livechat_ss.csv)).
-
 You can find the Python script used to extract the datasets [here](./lcextract.py).
 
 ![Python execution screenshot](./assets/pythonexec.png)
@@ -38,9 +33,16 @@ For portfolio purposes, a static dataset covering a defined time range is includ
 
 The API key used to extract live views is not included in the repository.
 
+**1.2. View count and concurrent viewers were saved in the specified directoy:** 
+
+Live chat messages from the YouTube stream ([casa_alofoke_livechat_data.csv](./casa_alofoke_livechat_data.csv)). This dataset captures messages sent during prime time in the live chat, so it is very large.  
+To view the complete dataset, click **"View raw"**
+
+Concurrent viewers and total views every minute ([casa_alofoke_livechat_ss.csv](casa_alofoke_livechat_ss.csv)).
+
 **2. Transformation**
 
-Power Query was used for text cleaning and structuring unstructured data.
+**2.1. Power Query was used for text cleaning and structuring unstructured data.**
 
 A custom column named "Participante" was created to extract mentions of specific participants of the reality show from chat messages:
 
@@ -50,14 +52,14 @@ MinuteKey was created as a unique key for each minute, to be able to create rela
 
 ![Participante field creation](./assets/datatransf2.png)
 
-A one-to-many relationship was established in Power BI:
+**2.2. A one-to-many relationship was established in Power BI:**
 
 casa_alofoke_livechat_ss[MinuteKey] → casa_alofoke_livechat_data[MinuteKey]
 This allows correlating viewer behavior with participant mentions.
 
 ![Participante field creation](./assets/datamodel1.png)
 
-DAX measures were created to analyze:
+**2.3. DAX measures were created to analyze:**
 
 Messages per minute
 
@@ -67,7 +69,7 @@ Viewer count trends
 
 **3. Load & Real-Time Analysis**
 
-Data loaded into Power BI for visualization.
+**3.1. Data loaded into Power BI for visualization.**
 
 Thanks to the structure with MinuteKey, this setup can be applied to live streams for real-time analysis:
 
