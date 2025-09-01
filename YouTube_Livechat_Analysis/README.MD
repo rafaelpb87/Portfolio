@@ -32,7 +32,7 @@ For portfolio purposes, a static dataset covering a defined time range is includ
 
 The API key used to extract live views is not included in the repository.
 
-**1.2. View count and concurrent viewers were saved in the specified directoy:** 
+**1.2. View count and concurrent viewers were saved in the specified directory:** 
 
 Live chat messages from the YouTube stream ([casa_alofoke_livechat_data.csv](./casa_alofoke_livechat_data.csv)). This dataset captures messages sent during prime time in the live chat, so it is very large.  
 To view the complete dataset, click **"View raw"**
