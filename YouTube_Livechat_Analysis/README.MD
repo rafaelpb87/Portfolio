@@ -30,7 +30,9 @@ The API key used to extract live views is not included in the repository.
 
 Power Query was used for text cleaning and structuring unstructured data.
 
-A custom column was created to extract mentions of specific participants from chat messages:
+A custom column named "Participante" was created to extract mentions of specific participants of the reality show from chat messages:
+
+![Participante field creation](./assets/datatransf1.png)
 
 = Table.AddColumn(#"Changed Type", "Participante", each 
     if Text.Contains(Text.Lower([message]), "crucita") then "crucita"
