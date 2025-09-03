@@ -13,7 +13,7 @@ Este repositorio muestra mis proyectos profesionales en **análisis de datos, an
 
 ## Projects / Proyectos
 
-### 1. YouTube Live Chat Analysis / Análisis de Chat en Vivo de YouTube
+### 1. YouTube Live Chat Analysis
 - **Skills:** Python scripting, unstructured data handling, Power BI visualization.  
 - Collected live chat messages in real-time from YouTube streams using Python (`pytchat`).  
 - Transformed unstructured chat data using Power BI / Power Query (keyword extraction, participant analysis).  
@@ -21,11 +21,11 @@ Este repositorio muestra mis proyectos profesionales en **análisis de datos, an
 
 ---
 
-### 2. KPI Dashboard for Retail Operations / Dashboard de KPIs para Operaciones Retail
-- **Skills:** Python programming, data integration, dashboard creation.  
-- Extracted and consolidated data from multiple sources (databases, CSVs, Excel) using Python.  
+### 2. KPI Dashboard for Hoshin Kanri Deployment
+- **Skills:** Python programming, data integration, dashboard creation, strategic planning, KPI design.  
+- Extracted and consolidated data from multiple sources (databases, CSVs, Excel) using process automation tools (MS Power Automate and Power Apps).  
 - Created an interactive dashboard to present KPIs in a user-friendly format.  
-- Enabled stakeholders to monitor key metrics for operational and financial performance.
+- Enabled stakeholders to monitor key metrics aligned to the organization's strategy.
 
 ---
 
