@@ -160,9 +160,9 @@ Al centralizar KPIs y automatizar su validación, este dashboard asegura la inte
 Why Python + Plotly instead of Power BI?
 
 English:
-While Power BI is a strong BI tool, Python + Plotly offers:
+**While Power BI is a strong BI tool, Python + Plotly offers:**
 
-Handles semi-structured and unstructured data (APIs, logs, live chats, SharePoint)
+Handles semi-structured and unstructured data (APIs, logs, SharePoint)
 
 Automated ETL: just run the program, and the dashboard refreshes with new data
 
@@ -172,7 +172,7 @@ Advanced analytics ready: integrates with ML, NLP, and statistics libraries
 
 Full design control beyond Power BI’s format limitations
 
-Best for:
+**Best for:**
 
 Heterogeneous or semi-structured data sources
 
@@ -183,9 +183,9 @@ Companies avoiding Power BI licensing costs
 Dashboards that need predictive/advanced analytics
 
 Español:
-Aunque Power BI es excelente, Python + Plotly ofrece ventajas:
+**Aunque Power BI es excelente, Python + Plotly ofrece ventajas:**
 
-Manejo de data semi-estructurada y no estructurada (APIs, logs, chats en vivo, SharePoint)
+Manejo de data semi-estructurada y no estructurada (APIs, logs, SharePoint)
 
 ETL automatizado: basta con ejecutar el programa y el dashboard se refresca con nueva data
 
@@ -195,7 +195,7 @@ Analítica avanzada lista: integración con ML, NLP y librerías estadísticas
 
 Control total de diseño más allá de las restricciones de Power BI
 
-Especialmente útil cuando:
+**Especialmente útil cuando:**
 
 Las fuentes son heterogéneas o semi-estructuradas
 
