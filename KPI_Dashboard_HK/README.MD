@@ -32,7 +32,7 @@ Plotly → Interactive charts
 
 HTML + CSS → Dashboard structure
 
-📚 Libraries Used: pandas, plotly, datetime, os
+Libraries Used: pandas, plotly, datetime, os
 
 **Main Challenge**
 
