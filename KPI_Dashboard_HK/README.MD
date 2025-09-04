@@ -1,5 +1,12 @@
-**Process Indicators Dashboard / Dashboard de Indicadores de Procesos**
+# Process Indicators Dashboard / Dashboard de Indicadores de Procesos
 
+<!-- Badges -->
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellowgreen.svg)](https://pandas.pydata.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-orange.svg)](https://plotly.com/python/)
+[![HTML](https://img.shields.io/badge/HTML-Dashboard-red.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+**Project overview:**
 English:
 This project demonstrates my ability to transform semi-structured and unstructured data into actionable insights. I built an interactive KPI dashboard in Python + Plotly, replicating the structure of a corporate webpage.
 
