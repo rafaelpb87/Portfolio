@@ -8,11 +8,21 @@
 
 ## Libraries Used / Librerías Utilizadas
 
-- **pandas** → manejo y transformación de datos  
-- **plotly.express** → generación rápida de gráficos interactivos  
-- **plotly.graph_objects** → personalización avanzada de gráficos  
-- **os, datetime** → manejo de sistema y fechas  
-- **HTML + CSS** → renderizado y diseño responsivo del dashboard
+- **pandas** → data handling and transformation / manejo y transformación de datos  
+- **plotly.express** → quick generation of interactive charts / generación rápida de gráficos interactivos  
+- **plotly.graph_objects** → advanced chart customization / personalización avanzada de gráficos  
+- **os, datetime** → system and date handling / manejo de sistema y fechas  
+- **HTML + CSS** → dashboard rendering and responsive design / renderizado y diseño responsivo del dashboard
+
+## Tech Stack / Tecnologías
+
+| Layer / Capa      | Tools / Herramientas |
+|-------------------|----------------------|
+| **Data Handling** | Python, pandas |
+| **Visualization** | Plotly (Express + Graph Objects) |
+| **Frontend**      | HTML, CSS (Flexbox, responsive design) |
+| **Automation**    | Python scripts (ETL) |
+| **Hosting**       | GitHub Pages / local execution |
 
 **Project overview:**
 English:
