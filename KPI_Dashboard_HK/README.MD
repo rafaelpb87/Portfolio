@@ -14,7 +14,7 @@ Más allá del desarrollo del dashboard, cuento con experiencia en el diseño de
 
 No obstante, este proyecto en particular se enfoca en el diseño de una herramienta para la extracción automatizada y visualización de los resultados de los indicadores de procesos, brindando a las partes interesadas una forma ágil e interactiva de dar seguimiento al desempeño.
 
-**Project Overview**
+## Project Overview
 
 English:
 The dashboard centralizes process KPIs, automates data extraction from diverse sources, and provides interactive visualizations for stakeholders.
@@ -42,21 +42,41 @@ HTML + CSS → Dashboard structure
 
 Libraries Used: pandas, plotly, datetime, os
 
-**Process**
+## Process
 
-The organization deployed its strategic plan using the Hoshin Kanri methodology, ensuring alignment between long-term strategy and daily operations.
+**English:** The organization deployed its strategic plan using the Hoshin Kanri methodology, ensuring alignment between long-term strategy and daily operations.
 
-The execution of the methodology was described in the SIPOC below, which captures inputs, resources, and process steps for strategic planning:
+This project focuses on the **ETL process and the visualization of process indicators**, enabling efficient monitoring and decision-making.
 
-![SIPOC Screenshot](./assets/sipocen.png)
+The execution of the methodology is described in the SIPOC below, which captures inputs, resources, and process steps for strategic planning:
 
-La organización desplegó su plan estratégico utilizando la metodología Hoshin Kanri, asegurando la alineación entre la estrategia de largo plazo y la operación diaria.
+![SIPOC Diagram](./assets/sipocen.png)
 
-La ejecución de la metodología fue descrita en el SIPOC siguiente, que captura entradas, recursos y pasos clave de la planificación estratégica:
+The strategy deployment had the following structure:
 
-![SIPOC Screenshot](./assets/sipoces.png)
+- **STRATEGIC VISION**
+- **STRATEGIC MISSION**
+- **BSC PERSPECTIVE**
+- **INTEGRATED MANAGEMENT SYSTEM OBJECTIVE**
+- **PROCESS INDICATOR**
 
-**Main Challenge**
+**Español:** La organización desplegó su plan estratégico utilizando la metodología Hoshin Kanri, asegurando la alineación entre la estrategia de largo plazo y la operación diaria.
+
+Este proyecto corresponde al **proceso ETL y la visualización de los indicadores de proceso**, permitiendo un monitoreo eficiente y la toma de decisiones.
+
+La ejecución de la metodología se describe en el SIPOC siguiente, que captura entradas, recursos y pasos clave de la planificación estratégica:
+
+![Diagrama SIPOC](./assets/sipoces.png)
+
+El despliegue de la estrategia tuvo la siguiente estructura:
+
+- **VISIÓN ESTRATÉGICA**
+- **MISIÓN ESTRATÉGICA**
+- **PERSPECTIVA DEL BSC**
+- **OBJETIVO DEL SISTEMA DE GESTIÓN INTEGRADO**
+- **INDICADOR DE PROCESO**
+
+## Main Challenge
 
 English:
 The hardest part was capturing data from multiple sources, most of them unstructured.
@@ -96,7 +116,7 @@ En este portafolio se muestran las tablas centralizadas:
 
 [eficaciaproc.csv](./eficaciaproc.csv) → desempeño de procesos por mes.
 
-**Features**
+## Features
 
 KPIs loaded from .csv files
 
@@ -118,7 +138,7 @@ Español:
 El proyecto fue diseñado en el marco de Hoshin Kanri (Despliegue de Políticas), una metodología de planeación estratégica que alinea la visión de largo plazo (True North) con objetivos anuales, KPIs y operaciones diarias.
 Al centralizar KPIs y automatizar su validación, este dashboard asegura la integridad de los datos y brinda a las partes interesadas información confiable para monitorear la ejecución de la estrategia.
 
-**Benefits**
+## Benefits
 Why Python + Plotly instead of Power BI?
 
 English:
