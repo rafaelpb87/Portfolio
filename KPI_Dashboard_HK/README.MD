@@ -146,7 +146,7 @@ Coloreado dinámico de resultados (verde/rojo según el cumplimiento)
 
 ETL automático: al ejecutar el script en Python se extraen, transforman y cargan los nuevos datos en el tablero
 
-Hoshin Kanri Alignment
+**Hoshin Kanri Alignment**
 
 English:
 The project was designed within the framework of Hoshin Kanri (Policy Deployment) — a strategic planning methodology that aligns an organization’s long-term vision (True North) with annual objectives, KPIs, and daily operations.
