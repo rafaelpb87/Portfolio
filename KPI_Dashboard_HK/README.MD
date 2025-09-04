@@ -132,15 +132,19 @@ En este portafolio se muestran las tablas centralizadas:
 
 ## Features
 
-KPIs loaded from .csv files
-
-Goal lines (Meta1, Meta2) included automatically
+English:
+KPI results and specifications loaded from .csv files
 
 Dynamic coloring of results (green/red based on compliance)
 
-Sidebar navigation by process and indicator
-
 Automatic ETL: running the Python script extracts, transforms, and loads new data into the dashboard
+
+Español:
+Resultados y especificaciones de KPIs cargados desde archivos .csv
+
+Coloreado dinámico de resultados (verde/rojo según el cumplimiento)
+
+ETL automático: al ejecutar el script en Python se extraen, transforman y cargan los nuevos datos en el tablero
 
 Hoshin Kanri Alignment
 
