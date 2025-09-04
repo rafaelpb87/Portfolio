@@ -34,6 +34,20 @@ HTML + CSS → Dashboard structure
 
 Libraries Used: pandas, plotly, datetime, os
 
+**Process**
+
+The organization deployed its strategic plan using the Hoshin Kanri methodology, ensuring alignment between long-term strategy and daily operations.
+
+The execution of the methodology was described in the SIPOC below, which captures inputs, resources, and process steps for strategic planning:
+
+![SIPOC Screenshot](./assets/sipocen.png)
+
+La organización desplegó su plan estratégico utilizando la metodología Hoshin Kanri, asegurando la alineación entre la estrategia de largo plazo y la operación diaria.
+
+La ejecución de la metodología fue descrita en el SIPOC siguiente, que captura entradas, recursos y pasos clave de la planificación estratégica:
+
+![SIPOC Screenshot](./assets/sipoces.png)
+
 **Main Challenge**
 
 English:
