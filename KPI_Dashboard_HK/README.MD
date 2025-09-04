@@ -76,6 +76,20 @@ El despliegue de la estrategia tuvo la siguiente estructura:
 - **OBJETIVO DEL SISTEMA DE GESTIÓN INTEGRADO**
 - **INDICADOR DE PROCESO**
 
+## Tools for documenting the planning process / Herramientas para documentar el proceso de planificación
+
+1. **Objectives and KPI Matrix / Matriz de Objetivos e Indicadores**  
+A tool used to align strategic objectives with measurable indicators (KPIs), showing which metrics track the achievement of each goal. It helps ensure that every objective has clear and measurable outcomes.  
+_Una herramienta utilizada para alinear los objetivos estratégicos con indicadores medibles (KPIs), mostrando qué métricas rastrean el cumplimiento de cada objetivo. Ayuda a garantizar que cada objetivo tenga resultados claros y medibles._  
+
+   ![KPI Matrix](./assets/hk.png)
+
+2. **KPI Sheet / Ficha de Indicadores**  
+A document that provides detailed information about each performance indicator, including its definition, calculation method, target values, responsible owner, and frequency of measurement. It is used to standardize and monitor KPIs across processes.  
+_Documento que proporciona información detallada sobre cada indicador de desempeño, incluyendo su definición, método de cálculo, valores objetivo, responsable y frecuencia de medición. Se utiliza para estandarizar y monitorear los KPIs a lo largo de los procesos._  
+
+   ![KPI Sheet](./assets/fichaind.png)
+
 ## Main Challenge
 
 English:
