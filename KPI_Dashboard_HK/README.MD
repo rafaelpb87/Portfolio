@@ -71,11 +71,11 @@ To ensure data integrity, a Python-based ETL pipeline was built to extract, cons
 
 In this portfolio, the centralized datasets are shown:
 
-reportes.csv → raw centralized reports.
+[reportes.csv](./reportes.csv) → raw centralized reports.
 
-metas.csv → goals and thresholds for KPIs.
+[metas.csv](./metas.csv) → goals and thresholds for KPIs.
 
-eficaciaproc.csv → process performance over time.
+[eficaciaproc.csv](./eficaciaproc.csv) → process performance over time.
 
 Español:
 El mayor reto fue capturar datos de múltiples fuentes, en su mayoría no estructuradas.
