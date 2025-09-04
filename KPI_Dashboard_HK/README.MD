@@ -1,10 +1,10 @@
 # Process Indicators Dashboard / Dashboard de Indicadores de Procesos
 
 <!-- Badges -->
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
-[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellowgreen.svg)](https://pandas.pydata.org/)
-[![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-orange.svg)](https://plotly.com/python/)
-[![HTML](https://img.shields.io/badge/HTML-Dashboard-red.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-F2776F?style=for-the-badge&logo=plotly&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ## Libraries Used / Librerías Utilizadas
 
@@ -12,17 +12,17 @@
 - **plotly.express** → quick generation of interactive charts / generación rápida de gráficos interactivos  
 - **plotly.graph_objects** → advanced chart customization / personalización avanzada de gráficos  
 - **os, datetime** → system and date handling / manejo de sistema y fechas  
-- **HTML + CSS** → dashboard rendering and responsive design / renderizado y diseño responsivo del dashboard
+- **HTML + CSS** → dashboard rendering and responsive design / renderizado y diseño responsivo del dashboard 
 
 ## Tech Stack / Tecnologías
 
-| Layer / Capa      | Tools / Herramientas |
-|-------------------|----------------------|
-| **Data Handling** | Python, pandas |
-| **Visualization** | Plotly (Express + Graph Objects) |
-| **Frontend**      | HTML, CSS (Flexbox, responsive design) |
-| **Automation**    | Python scripts (ETL) |
-| **Hosting**       | GitHub Pages / local execution |
+| Layer / Capa       | Tools / Herramientas                          |
+|-------------------|-----------------------------------------------|
+| Data Handling      | Python, pandas                                |
+| Visualization      | Plotly (Express + Graph Objects)             |
+| Frontend           | HTML, CSS (Flexbox, responsive design)       |
+| Automation         | Python scripts (ETL)                          |
+| Hosting            | GitHub Pages / local execution               |
 
 **Project overview:**
 English:
