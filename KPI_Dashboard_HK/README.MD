@@ -90,11 +90,11 @@ Para garantizar la integridad de los datos, se construyó un pipeline ETL en Pyt
 
 En este portafolio se muestran las tablas centralizadas:
 
-reportes.csv → reportes centralizados.
+[reportes.csv](./reportes.csv) → reportes centralizados.
 
-metas.csv → metas y umbrales de KPIs.
+[metas.csv](./metas.csv) → metas y umbrales de KPIs.
 
-eficaciaproc.csv → desempeño de procesos por mes.
+[eficaciaproc.csv](./eficaciaproc.csv) → desempeño de procesos por mes.
 
 **Features**
 
