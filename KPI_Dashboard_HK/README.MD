@@ -145,7 +145,7 @@ En este portafolio se muestran las tablas centralizadas:
 ## How It Works / Cómo Funciona
 
 **English**
-This KPI Dashboard program is a Python-based alternative to Power BI, allowing you to visualize KPIs interactively in a web browser. Here's how it works:
+This KPI Dashboard program is a Python-based alternative to Power BI, allowing you to visualize KPIs interactively in a web browser (You can try the program [here](./kpisgc2.py)). Here's how it works:
 
 1. **Data Loading:**  
    The program reads three CSV files: `reportes.csv` (indicator reports), `metas.csv` (targets for each indicator), and `eficaciaproc.csv` (effectiveness per process).
@@ -179,12 +179,12 @@ This KPI Dashboard program is a Python-based alternative to Power BI, allowing y
 
 ![Program execution](./assets/exec.png)
 
-   - Open this file in a web browser to interact with your KPI dashboard.
+   - Open this file in a web browser to interact with your KPI dashboard. You can try visualizing the example dashboard [here](./sgc_dashboard.html).
 
 ![Dashboard](./assets/dashboard.png)
 
 **Español**
-Este programa de Dashboard de KPIs es una alternativa basada en Python a Power BI, que permite visualizar los indicadores de manera interactiva en un navegador web. Su funcionamiento es el siguiente:
+Este programa de Dashboard de KPIs es una alternativa basada en Python a Power BI, que permite visualizar los indicadores de manera interactiva en un navegador web (Puede probar el programa [aquí](./kpisgc2.py)). Su funcionamiento es el siguiente:
 
 1. **Carga de Datos:**  
    El programa lee tres archivos CSV: `reportes.csv` (informes de indicadores), `metas.csv` (metas de cada indicador) y `eficaciaproc.csv` (eficacia por proceso).
@@ -218,7 +218,7 @@ Este programa de Dashboard de KPIs es una alternativa basada en Python a Power B
 
 ![Program execution](./assets/exec.png)
 
-   - Abre este archivo en un navegador web para interactuar con tu dashboard de KPIs.
+   - Abre este archivo en un navegador web para interactuar con tu dashboard de KPIs. Puede visualizar el dashboard con los datos de ejemplo [aquí](./sgc_dashboard.html).
 
 ![Dashboard](./assets/dashboard.png)
 
