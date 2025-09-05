@@ -21,7 +21,7 @@ Este repositorio muestra mis proyectos profesionales en **análisis de datos, an
 
 ---
 
-### 2. KPI Dashboard for Hoshin Kanri Deployment
+### 2. [KPI Dashboard for Hoshin Kanri Deployment](https://github.com/rafaelpb87/KPI_Dashboard_HK)
 - **Skills:** Python programming, data integration, dashboard creation, strategic planning, KPI design.  
 - Extracted and consolidated data from multiple sources (databases, CSVs, Excel) using process automation tools (MS Power Automate and Power Apps).  
 - Created an interactive dashboard to present KPIs in a user-friendly format.  
