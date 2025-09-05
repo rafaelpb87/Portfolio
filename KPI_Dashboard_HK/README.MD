@@ -179,7 +179,7 @@ This KPI Dashboard program is a Python-based alternative to Power BI, allowing y
 
 ![Program execution](./assets/exec.png)
 
-   - Open this file in a web browser to interact with your KPI dashboard. You can try visualizing the example dashboard [here](./sgc_dashboard.html).
+   - Open this file in a web browser to interact with your KPI dashboard. You can try visualizing the example dashboard [here](https://rafaelpb87.github.io/portfolioweb/).
 
 ![Dashboard](./assets/dashboard.png)
 
@@ -218,7 +218,7 @@ Este programa de Dashboard de KPIs es una alternativa basada en Python a Power B
 
 ![Program execution](./assets/exec.png)
 
-   - Abre este archivo en un navegador web para interactuar con tu dashboard de KPIs. Puede visualizar el dashboard con los datos de ejemplo [aquí](./sgc_dashboard.html).
+   - Abre este archivo en un navegador web para interactuar con tu dashboard de KPIs. Puede visualizar el dashboard con los datos de ejemplo [aquí](https://rafaelpb87.github.io/portfolioweb/).
 
 ![Dashboard](./assets/dashboard.png)
 
