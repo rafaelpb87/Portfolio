@@ -25,21 +25,21 @@
 | Hosting            | GitHub Pages / local execution               |
 
 **Project overview:**
-English:
+**English:**
 This project demonstrates my ability to transform semi-structured and unstructured data into actionable insights. I built an interactive KPI dashboard in Python + Plotly, replicating the structure of a corporate webpage.
 
 Beyond dashboard development, I have experience designing process indicators in collaboration with top management and process owners, ensuring alignment with the organization’s strategic vision, strategic objectives, and annual operating plans (POA).
 
 However, this specific project focuses on the design of a tool for the automated extraction and visualization of process indicator results, providing stakeholders with an agile and interactive way to monitor performance.
 
-Español:
+**Español:**
 Este proyecto demuestra mi capacidad para transformar datos semi-estructurados y no estructurados en información accionable. Creé un dashboard interactivo de KPIs en Python + Plotly, que replica la estructura de una página corporativa.
 
 Más allá del desarrollo del dashboard, cuento con experiencia en el diseño de indicadores de procesos en conjunto con la Alta Dirección y los dueños de procesos, asegurando la alineación con la visión estratégica, los objetivos estratégicos y los planes operativos anuales (POA).
 
 No obstante, este proyecto en particular se enfoca en el diseño de una herramienta para la extracción automatizada y visualización de los resultados de los indicadores de procesos, brindando a las partes interesadas una forma ágil e interactiva de dar seguimiento al desempeño.
 
-## Project Overview
+## Project Specs
 
 English:
 The dashboard centralizes process KPIs, automates data extraction from diverse sources, and provides interactive visualizations for stakeholders.
