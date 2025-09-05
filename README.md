@@ -13,7 +13,7 @@ Este repositorio muestra mis proyectos profesionales en **análisis de datos, an
 
 ## Projects / Proyectos
 
-### 1. YouTube Live Chat Analysis
+### 1. [YouTube Live Chat Analysis](https://github.com/rafaelpb87/YouTube_Livechat_Analysis)
 - **Skills:** Python scripting, unstructured data handling, Power BI visualization.  
 - Collected live chat messages in real-time from YouTube streams using Python (`pytchat`).  
 - Transformed unstructured chat data using Power BI / Power Query (keyword extraction, participant analysis).  
