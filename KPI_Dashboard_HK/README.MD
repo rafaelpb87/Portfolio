@@ -117,7 +117,7 @@ _Documento que proporciona información detallada sobre cada indicador de desemp
 
 ## Main Challenge
 
-English:
+**English:**
 The hardest part was capturing data from multiple sources, most of them unstructured.
 
 The Sales to Clients process data was extracted from SQL Server via query.
@@ -136,7 +136,7 @@ In this portfolio, the centralized datasets are shown:
 
 [eficaciaproc.csv](./eficaciaproc.csv) → process performance over time.
 
-Español:
+**Español:**
 El mayor reto fue capturar datos de múltiples fuentes, en su mayoría no estructuradas.
 
 El proceso de Ventas a Clientes se extrajo desde SQL Server con un query.
@@ -154,6 +154,86 @@ En este portafolio se muestran las tablas centralizadas:
 [metas.csv](./metas.csv) → metas y umbrales de KPIs.
 
 [eficaciaproc.csv](./eficaciaproc.csv) → desempeño de procesos por mes.
+
+## How It Works / Cómo Funciona
+
+**English**
+This KPI Dashboard program is a Python-based alternative to Power BI, allowing you to visualize KPIs interactively in a web browser. Here's how it works:
+
+1. **Data Loading:**  
+   The program reads three CSV files: `reportes.csv` (indicator reports), `metas.csv` (targets for each indicator), and `eficaciaproc.csv` (effectiveness per process).
+
+![Load CSV code](./assets/loadcsv.png)
+
+2. **Data Processing:**  
+   - Dates are parsed into `datetime` objects.  
+   - Monthly KPIs are sorted in the correct order using a month mapping.  
+   - Effectiveness is grouped by month and process for overall charts.
+
+![Date formatting](./assets/dateparsing.png)
+
+3. **Visualization:**  
+   - Line charts show KPI trends over time.  
+   - Bar charts show average effectiveness per process.  
+   - For each process and indicator, individual charts are created with dynamic coloring:  
+     - Green if the KPI meets or exceeds the target  
+     - Red if it falls below the target  
+     - Ranges are handled when two targets are specified.
+
+![Process charts](./assets/processcharts.png)
+
+4. **Dashboard Rendering:**  
+   - An HTML template with CSS flexbox layout displays the charts.  
+   - Charts are arranged **two per row** in a responsive, scroll-free layout.  
+   - A sidebar allows navigation between the overall dashboard and each process.
+
+5. **Execution:**  
+   - Run the Python script, and it automatically generates the `sgc_dashboard.html` file.  
+
+![Program execution](./assets/exec.png)
+
+   - Open this file in a web browser to interact with your KPI dashboard.
+
+![Dashboard](./assets/dashboard.png)
+
+**Español**
+Este programa de Dashboard de KPIs es una alternativa basada en Python a Power BI, que permite visualizar los indicadores de manera interactiva en un navegador web. Su funcionamiento es el siguiente:
+
+1. **Carga de Datos:**  
+   El programa lee tres archivos CSV: `reportes.csv` (informes de indicadores), `metas.csv` (metas de cada indicador) y `eficaciaproc.csv` (eficacia por proceso).
+
+![Load CSV code](./assets/loadcsv.png)
+
+2. **Procesamiento de Datos:**  
+   - Se convierten las fechas a objetos `datetime`.  
+   - Los KPIs mensuales se ordenan correctamente usando un mapeo de meses.  
+   - La eficacia se agrupa por mes y por proceso para generar gráficos generales.
+
+![Date formatting](./assets/dateparsing.png)
+
+3. **Visualización:**  
+   - Gráficos de línea muestran la evolución de los KPIs a lo largo del tiempo.  
+   - Gráficos de barras muestran la eficacia promedio por proceso.  
+   - Para cada proceso e indicador, se generan gráficos individuales con color dinámico:  
+     - Verde si el KPI cumple o supera la meta  
+     - Rojo si queda por debajo de la meta  
+     - Se manejan rangos cuando se especifican dos metas.
+
+![Process charts](./assets/processcharts.png)
+
+4. **Renderizado del Dashboard:**  
+   - Una plantilla HTML con diseño flexbox de CSS muestra los gráficos.  
+   - Los gráficos se organizan **dos por fila** en un diseño responsive sin scroll horizontal.  
+   - Una barra lateral permite navegar entre el dashboard general y cada proceso.
+
+5. **Ejecución:**  
+   - Ejecuta el script de Python, y automáticamente se genera el archivo `sgc_dashboard.html`.  
+
+![Program execution](./assets/exec.png)
+
+   - Abre este archivo en un navegador web para interactuar con tu dashboard de KPIs.
+
+![Dashboard](./assets/dashboard.png)
 
 ## Features
 
