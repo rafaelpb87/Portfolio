@@ -24,7 +24,8 @@
 | Automation         | Python scripts (ETL)                          |
 | Hosting            | GitHub Pages / local execution               |
 
-**Project overview:**
+## Project overview:
+
 **English:**
 This project demonstrates my ability to transform semi-structured and unstructured data into actionable insights. I built an interactive KPI dashboard in Python + Plotly, replicating the structure of a corporate webpage.
 
@@ -41,10 +42,10 @@ No obstante, este proyecto en particular se enfoca en el diseño de una herramie
 
 ## Project Specs
 
-English:
+**English:**
 The dashboard centralizes process KPIs, automates data extraction from diverse sources, and provides interactive visualizations for stakeholders.
 
-Español:
+**Español:**
 El dashboard centraliza KPIs de procesos, automatiza la extracción de datos de diversas fuentes y entrega visualizaciones interactivas para las partes interesadas.
 
 Note / Nota:
@@ -52,20 +53,6 @@ Note / Nota:
 Indicator names were modified.
 
 Data was altered for privacy.
-
-**Tech Stack**
-
-Python 3.11 → Core programming language
-
-Pandas → Data manipulation
-
-Datetime / OS → Parsing + file handling
-
-Plotly → Interactive charts
-
-HTML + CSS → Dashboard structure
-
-Libraries Used: pandas, plotly, datetime, os
 
 ## Process
 
