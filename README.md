@@ -1,13 +1,13 @@
 # Portfolio
-Portfolio showcasing data analysis, statistical modeling, Python programming, and data visualization projects.
+Data Analysis & Process Improvement Portfolio / Portafolio de Análisis de Datos y Mejora de Procesos
 
 
 # Data Analysis Portfolio / Portafolio de Análisis de Datos
 
 ## Overview / Resumen
-This repository showcases my professional projects in **data analysis, statistical analysis, and programming**. The portfolio demonstrates end-to-end workflows, including data collection, transformation, statistical modeling, process analysis, and data visualization to generate actionable insights.
+This repository showcases how I complement data analysis with continuous process improvement. Each project demonstrates how data-driven insights can be applied to optimize processes, support decision-making, and generate measurable value. The portfolio includes complete workflows: data collection, transformation, statistical modeling, process analysis, and visualization, all with a focus on improving organizational performance.
 
-Este repositorio muestra mis proyectos profesionales en **análisis de datos, análisis estadístico y programación**. El portafolio demuestra flujos de trabajo completos, incluyendo recolección de datos, transformación, modelado estadístico, análisis de procesos y visualización de datos para generar insights accionables.
+Este repositorio muestra cómo complemento el análisis de datos con la mejora continua de procesos. Cada proyecto demuestra cómo los insights generados a partir de los datos se aplican para optimizar procesos, apoyar la toma de decisiones y generar valor medible. El portafolio incluye flujos de trabajo completos: recolección de datos, transformación, modelado estadístico, análisis de procesos y visualización, siempre enfocados en mejorar el desempeño organizacional.
 
 ---
 
