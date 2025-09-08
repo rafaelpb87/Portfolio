@@ -1,8 +1,6 @@
 # Portfolio
-Data Analysis & Process Improvement Portfolio / Portafolio de Análisis de Datos y Mejora de Procesos
 
-
-# Data Analysis Portfolio / Portafolio de Análisis de Datos
+# Data Analysis & Process Improvement Portfolio / Portafolio de Análisis de Datos y Mejora de Procesos
 
 ## Overview / Resumen
 This repository showcases how I complement data analysis with continuous process improvement. Each project demonstrates how data-driven insights can be applied to optimize processes, support decision-making, and generate measurable value. The portfolio includes complete workflows: data collection, transformation, statistical modeling, process analysis, and visualization, all with a focus on improving organizational performance.
